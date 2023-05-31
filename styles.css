@@ -20,6 +20,9 @@
     flex: 100%;
   }
 }
+.greeting {
+  text-align: center;
+  }
 
 body {
   background-color: lightgoldenrodyellow;
