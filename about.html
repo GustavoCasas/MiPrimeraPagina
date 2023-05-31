@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <title>Mi Primer Website</title>
+    <style>
+        * {
+            font-family: "Roboto", sans-serif, verdana;
+        }
+.img {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container-nav">
+        <nav class="navbar">
+            <a href="#" class="brand">Mi primer Website! </a>
+            <ul class="nav-links">
+                <li><a href="Mi-primer-Website.html">Home</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menú</button>
+    </div>
+    <div class="container">
+        <h1>Acerca de</h1>
+        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que
+            ofrecemos.</p>
+        <img src="ImagenCostados.png" alt="Descripción de la imagen 1" />
+        <img src="ImagenMedio.jpg" alt="Descripción de la imagen 2" />
+        <img src="ImagenCostados.png" alt="Descripción de la imagen 3" />
+        <div class="box">
+
+            <strong>Ejemplo de listas y etiqueta "strong" :</strong>
+            <ul>
+                <li><button id="miBoton">¡Haz click en mí!</button></li>
+                <li><button onclick="showAlert()">¡Haz click en mí!</button></li>
+            </ul>
+        </div>
+        <div class="ImgRelleno">
+            <img src="http://58f.7f8.myftpupload.com/wp-content/uploads/10-códigos-html-para-páginas-web-y-para-qué-sirven_2.jpg"
+                alt="Relleno HTML" width="1000" height="300"
+                srcset="https://ar.godaddy.com/blog/wp-content/uploads/10-códigos-html-para-páginas-web-y-para-qué-sirven_2.jpg 1000w, https://ar.godaddy.com/blog/wp-content/uploads/10-códigos-html-para-páginas-web-y-para-qué-sirven_2-768x230.jpg 768w"
+                sizes="size-full">
+        </div>
+        <footer>
+            <p>&copy; 2023 Gustavo Casas. Todos los derechos reservados</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
